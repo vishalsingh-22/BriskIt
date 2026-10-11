@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+
+#header-logo{
+    display: flex;
+    align-items: center;
+}
+
+#header-first{
+    display: flex;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+header select{
+    height: 32px;
+    width: 180px;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+}
+
+
+header input{
+     height: 35px;
+    width: 500px;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+}
+
+header button{
+    height: 35px;
+    width: 80px;
+    font-size: 16.5px;
+    border: none;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+header button:hover{
+    background-color: green;
+
+}
+
+#header-last{
+    display: flex;
+    align-items: center;
+   
+}
+
+@media(max-width: 800px){
+    header input{
+        width: 300px;
+    }
+}
+
+#second{
+    display: flex;
+    overflow-x: scroll;
+    justify-content: space-evenly;
+    
+    
+   
+}
+
+#third{
+    display: flex;
+    overflow-x: scroll ;
+    justify-content: space-around;
+}
+
+#fourth{
+    display: flex;
+    justify-content: space-around;
+}
+
+#fifth{
+    display: flex;
+
+}
+
+@media(max-width: 400px){
+    header-last{
+        display: none;
+    }
+}
+
+#top-img{
+
+}
