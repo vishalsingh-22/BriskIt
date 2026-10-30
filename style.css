@@ -4,10 +4,15 @@
 }
 
 header{
-    display:flex;
+     display:flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: row;
+    position: fixed;
     flex-wrap: wrap;
+    top: 0;
+    background-color: aliceblue;
+    width: 100%;
     
 
 }
